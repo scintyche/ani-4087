@@ -16,4 +16,4 @@ la moyenne de ces mesures est de 6,86
 
 e=valeur max-valeur min =7,4-5,9=1,5
 e=1,5
-l'ecart moyen que j'ai trouvé ici est legerement superieur à l'ecart moyen dans le cours soit 6,86>6,5
+la moyenne des écarts que j'ai trouvé ici est legerement superieur à la moyenne des écarts dans le cours soit 6,86>6,5
