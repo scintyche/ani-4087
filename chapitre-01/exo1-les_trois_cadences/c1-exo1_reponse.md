@@ -14,7 +14,8 @@ d=1000/120 =8,3ms
 d-8= 8,3-8=0,3 ms
 le temps restant ici pour le code est de 0,3ms
 donc nous avons :
-- 5,9ms à 70Hz
+- 5,9ms à 72Hz
 - 3,1ms à 90Hz
 - 0,3ms à 120Hz
 
+nous constatons que à 120Hz, il ne reste presque plus de temps pour le code parce que presque tout le temps disponible a déjà été utilisé 
