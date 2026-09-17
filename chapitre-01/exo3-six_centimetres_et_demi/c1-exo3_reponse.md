@@ -1,1 +1,19 @@
+# mesurer l'ecart entre les pupilles
 
+23P107 =6,7cm
+23P097 =6,5cm
+23P105 =7,4cm
+23P090 =5,9cm
+23P024 =7,3cm
+23P009 =7,4cm
+
+
+- trouvons la moyenne:
+M= (6,7+6,5+7,4+5,9+7,3+7,4)/6 =6,86
+la moyenne de ces mesures est de 6,86
+
+- l'ecart entre la plus petite et la plus grabde valeur:
+
+e=valeur max-valeur min =7,4-5,9=1,5
+e=1,5
+l'ecart moyen que j'ai trouvé ici est legerement superieur à l'ecart moyen dans le cours soit 6,86>6,5
