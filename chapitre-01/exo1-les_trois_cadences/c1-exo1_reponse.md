@@ -26,4 +26,11 @@ P=(8/13,9)100=57,6%
 - 120Hz:
   P=(8/8,3)100=96,3%
 
- une cadence plus élevée est un avantage pour l’utilisateur seulement si le temps fixe imposé reste petit par rapport au nouveau budget. quand il arrive à un certain niveau ce temps fixe occupe presque tout l’espace disponible et rendre le programme impossible à exécuter 
+ une cadence plus élevée est un avantage pour l’utilisateur seulement si le temps fixe imposé reste petit par rapport au nouveau budget. quand il arrive à un certain niveau ce temps fixe occupe presque tout l’espace disponible et rendre le programme impossible à exécuter.
+
+ trouvons le niveau pour lequel le budget est saturé à 100%
+
+ d=1000/f. ici, d=8
+ 8=1000/f
+ f=1000/8=125Hz
+ donc en conclusion, avec un budget fixe de 8ms par image, la cadence ne doit pas dépasser les 125Hz sinon le programme est impossible à exécuter 
