@@ -18,4 +18,12 @@ donc nous avons :
 - 3,1ms à 90Hz
 - 0,3ms à 120Hz
 
-nous constatons que à 120Hz, il ne reste presque plus de temps pour le code parce que presque tout le temps disponible a déjà été utilisé 
+nous constatons que à 120Hz, il ne reste presque plus de temps pour le code.
+
+calculons les proportions du budget à :
+- 72Hz :
+P=(8/13,9)100=57,6%
+- 120Hz:
+  P=(8/8,3)100=96,3%
+
+ une cadence plus élevée est un avantage pour l’utilisateur seulement si le temps fixe imposé reste petit par rapport au nouveau budget. quand il arrive à un certain niveau ce temps fixe occupe presque tout l’espace disponible et rendre le programme impossible à exécuter 
