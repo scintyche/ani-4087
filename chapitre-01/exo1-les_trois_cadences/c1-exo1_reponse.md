@@ -33,4 +33,8 @@ P=(8/13,9)100=57,6%
  d=1000/f. ici, d=8
  8=1000/f
  f=1000/8=125Hz
- donc en conclusion, avec un budget fixe de 8ms par image, la cadence ne doit pas dépasser les 125Hz sinon le programme est impossible à exécuter 
+ donc en conclusion, avec un budget fixe de 8ms par image, la cadence ne doit pas dépasser les 125Hz sinon le programme est impossible à exécuter.
+
+
+La limite de 125 Hz reste vraie pour un rendu où chaque image est vraiment calculée; les casques à 144 Hz ne dépassent pas cette limite ils la contournent grâce à la reprojection qui est une technique qui déforme une image déjà rendue selon les nouveaux mouvements de tête au lieu de recalculer une image complète. le casque affiche donc plus souvent une information retouchée plutôt que plus souvent une nouvelle information 
+ 
