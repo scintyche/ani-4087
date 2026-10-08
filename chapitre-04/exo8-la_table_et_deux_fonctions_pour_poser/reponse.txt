@@ -1,1 +1,9 @@
+Lignes avant les fonctions :
+Sans les fonctions, la formule de hauteur est recopiee a chaque endroit ou l'on place quelque chose : 4 lignes de calcul (plateau, pieds, objets au sol, objets sur la table), chacune avec sa propre division par 2 a ne pas oublier.
+
+Lignes apres :
+Avec les deux fonctions, la formule n'existe plus que 2 fois (1 ligne dans PoserAuSol, 1 ligne dans PoserSurTable). Les 4 endroits ne font plus qu'un appel, sans aucun calcul de hauteur.
+
+L'erreur que la fonction m'evite :
+Oublier de diviser la hauteur par 2. Le tabouret (sy = 450) serait centre a y = 450 au lieu de 450 / 2 = 225 : il flotterait de 225 mm. Le livre (sy = 40) sur la table (H = 750) serait a 750 + 40 = 790 au lieu de 750 + 40 / 2 = 770 : il flotterait de 20 mm. Dans PoserAuSol et PoserSurTable, le / 2 est ecrit une seule fois, donc corrige une seule fois.
 
